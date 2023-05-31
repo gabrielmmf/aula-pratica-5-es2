@@ -35,7 +35,7 @@ jobs:
       run: |
         pytest
       
-    build-run-windows:
+  build-run-windows:
 
     runs-on: windows-latest
 
@@ -60,7 +60,7 @@ jobs:
       run: |
         pytest
     
-    build-run-macOS:
+  build-run-macOS:
 
     runs-on: macOS-latest
 
